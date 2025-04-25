@@ -1,6 +1,7 @@
 # 📬 Feedback Collector App
 
-A simple, responsive feedback collection app built with **React** and **Firebase**, designed to collect user feedback with real-time submission and timestamp display.
+A simple, responsive feedback collection app built with **React** and **Firebase**, designed to collect user feedback with real-time submission and timestamp display. 
+Access the app here: https://feedbackfallonstudio.netlify.app/
 
 ---
 
