@@ -1,7 +1,8 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getFirestore } from "firebase/firestore"; // Import Firestore SDK
+// Remove this line ↓ since it's unused and causing build to fail
+// import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -16,10 +17,11 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// 🔴 Removed analytics because it's not being used
+// const analytics = getAnalytics(app);
 
 // Initialize Firestore
-const db = getFirestore(app); // This line initializes Firestore
+const db = getFirestore(app);
 
 // Export db to be used in other parts of your app
 export { db };
